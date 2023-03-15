@@ -22,7 +22,8 @@ public class LoginStepDefinition {
 
 	@Given("I am on the login page")
 	public void i_am_on_the_login_page(){
-		driver.get("C:\\Users\\KANNA\\eclipse-workspace\\webdriver\\web\\login.html");}
+		driver.get("C:\\Users\\KANNA\\eclipse-workspace\\webdriver\\web\\login.html");
+		System.out.println("Github update test");}
 	
 	@When("I check page title")
 	public void i_check_page_title()
